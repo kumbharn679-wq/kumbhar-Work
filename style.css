@@ -488,7 +488,7 @@ img{
         padding:0 10px;
     }
 
-    .grid-four-column{
+    .grid-three-column{
         grid-template-columns:1fr;
     }
 
