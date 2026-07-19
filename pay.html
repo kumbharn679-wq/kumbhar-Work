@@ -12,36 +12,77 @@
         justify-content: center;
         align-items: center;
       flex-direction: column;
-        gap: 15px;
-        background-image: linear-gradient(to bottom, #edd5d5, #c3cba6);
+        gap: 1rem;
+        background-image: linear-gradient(to bottom, #fab4b4, #e5f4b1);
     }
-    img{
-        height: 400px;
-        width: 400px;
-    }
+   
     h1{
+      text-align:center;
         font-size: 36px;
       color: #FFFFFF;
 background: #333333;
 text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #FF2D95 0px 0px 20px, #FF2D95 0px 0px 30px, #FF2D95 0px 0px 40px, #FF2D95 0px 0px 50px, #FF2D95 0px 0px 75px;
     }
     button{
-        padding: 10px 20px;
-        font-size: 18px;
-        background-color: #a4f2ce;
-        color: #f76280;
+        padding:12px 24px;
+    font-size:18px;
+    border-radius:8px;
+       
+        background-color: #a4acf2;
+        color: hsl(272, 90%, 68%);
         border: none;
         cursor: pointer;
         text-shadow: #FFF 0px 0px 5px, #FFF 0px 0px 10px, #FFF 0px 0px 15px, #edbbd4 0px 0px 20px, #ecbed5 0px 0px 30px, #f6c7de 0px 0px 40px, #fcc8e2 0px 0px 50px, #000000 0px 0px 75px;
     }
      button:hover {
-      background-color: #bcebef;
+      background-color: #8a84e3;
     }
+
+    @media (max-width:768px){
+
+    h1{
+        font-size:28px;
+        text-align:center;
+    }
+
+    p{
+        font-size:16px;
+        text-align:center;
+    }
+
+    button{
+        width:100%;
+        max-width:250px;
+        font-size:16px;
+    }
+
+    .payment{
+        text-align:center;
+        padding:1rem;
+    }
+
+    body{
+        padding:20px;
+    }
+
+}
   </style>
 </head>
 
 <body>
-    <button>buy now</button>
-    <h1>🙏THANK YOU🙏</h1>
+ <section class ="payment">
+    
+    <h1>🙏THANK YOU🙏</h1><br>
+    <p>
+        Thank you for choosing Kumbhar Arts.
+        We appreciate your trust and support.
+    </p>
+<br><br>
+    <button>Buy Now</button>
+
+    <br><br>
+
+    <a href="contact.html" class="btn">Place Your Order</a> 
+ </section>
 </body>
 </html>
